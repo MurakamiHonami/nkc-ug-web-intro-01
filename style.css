@@ -93,3 +93,9 @@ footer {
   font-size: 0.875rem;
   color: #555;
 }
+.container {
+  display: flex; /* Flexbox を有効化 */
+  gap: 1rem; /* 子要素間の隙間 */
+  justify-content: center; /* 主軸揃え */
+  align-items: center; /* 交差軸揃え */
+}
