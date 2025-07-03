@@ -1,0 +1,27 @@
+.container {
+  display: flex; /* Flexbox を有効化 */
+  gap: 1rem; /* 子要素間の隙間 */
+  justify-content: center; /* 主軸揃え */
+  align-items: center; /* 交差軸揃え */
+}
+body {
+  font-family: system-ui, sans-serif;
+  line-height: 1.6;
+  margin: 0 1rem;
+}
+h1 {
+  color: #0d47a1;
+}
+
+nav ul {
+  display: flex;
+  gap: 0.5rem;
+  list-style: none;
+  padding: 0;
+}
+
+@media (max-width: 600px) {
+  nav ul {
+    flex-direction: column;
+  }
+}
